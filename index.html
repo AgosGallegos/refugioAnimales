@@ -1,0 +1,263 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refugio Perritos Contentos</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background-color:#f4f4f4;
+        }
+
+        header{
+            background-color:#4da6ff;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        nav{
+            background-color:#1e3a5f;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 20px;
+            font-weight:bold;
+        }
+
+        section{
+            padding:50px;
+        }
+
+        h2{
+            color:#1e3a5f;
+            margin-bottom:20px;
+        }
+
+        .inicio{
+            text-align:center;
+        }
+
+        .inicio img{
+            width:500px;
+            border-radius:20px;
+        }
+
+        .contenedor{
+            display:flex;
+            justify-content:center;
+            gap:30px;
+            flex-wrap:wrap;
+        }
+
+        .tarjeta{
+            background:white;
+            width:300px;
+            padding:20px;
+            border-radius:15px;
+            box-shadow:0px 0px 10px gray;
+        }
+
+        .tarjeta h3{
+            color:#1e3a5f;
+            margin-bottom:10px;
+        }
+
+        button{
+            background-color:#4da6ff;
+            color:white;
+            border:none;
+            padding:10px 15px;
+            border-radius:10px;
+            cursor:pointer;
+            margin-top:15px;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            background:white;
+        }
+
+        table,th,td{
+            border:1px solid gray;
+        }
+
+        th{
+            background:#4da6ff;
+            color:white;
+        }
+
+        th,td{
+            padding:15px;
+            text-align:center;
+        }
+
+        footer{
+            background:#1e3a5f;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🐶 REFUGIO PERRITOS CONTENTOS 🐶</h1>
+    <p>Brindando una segunda oportunidad a nuestros amigos de cuatro patas</p>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#animales">Animales</a>
+    <a href="#adoptantes">Adoptantes</a>
+    <a href="#adopciones">Adopciones</a>
+    <a href="#veterinaria">Veterinaria</a>
+    <a href="#colaboradores">Colaboradores</a>
+</nav>
+
+<section id="inicio" class="inicio">
+    <h2>Bienvenidos</h2>
+
+    <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?w=1000" alt="perritos">
+
+    <br><br>
+
+    <p>
+        Nuestro refugio se dedica al rescate, cuidado y adopción responsable
+        de perros y gatos, brindándoles atención veterinaria y una nueva oportunidad.
+    </p>
+</section>
+
+<section id="animales">
+
+    <h2>🐕 Animales del Refugio</h2>
+
+    <div class="contenedor">
+
+        <div class="tarjeta">
+            <h3>Luna</h3>
+            <p>Especie: Perro</p>
+            <p>Edad: 3 años</p>
+            <p>Estado: En refugio</p>
+
+            <button>Ver más</button>
+        </div>
+
+        <div class="tarjeta">
+            <h3>Mishi</h3>
+            <p>Especie: Gato</p>
+            <p>Edad: 1 año</p>
+            <p>Estado: Listo para adopción</p>
+
+            <button>Adoptar</button>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="adoptantes">
+
+    <h2>👨‍👩‍👧 Familias Adoptantes</h2>
+
+    <div class="tarjeta">
+
+        <p>✔ Registro de adoptantes</p>
+        <p>✔ Búsqueda por nombre o DNI</p>
+        <p>✔ Historial de adopciones</p>
+        <p>✔ Modificación de datos</p>
+
+    </div>
+
+</section>
+
+<section id="adopciones">
+
+    <h2>❤️ Adopciones</h2>
+
+    <table>
+
+        <tr>
+            <th>ID</th>
+            <th>Animal</th>
+            <th>Adoptante</th>
+            <th>Fecha</th>
+            <th>Estado</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Luna</td>
+            <td>María Gómez</td>
+            <td>24/06/2026</td>
+            <td>Activa</td>
+        </tr>
+
+    </table>
+
+</section>
+
+<section id="veterinaria">
+
+    <h2>🩺 Atención Veterinaria</h2>
+
+    <div class="tarjeta">
+
+        <p>💉 Vacunación</p>
+        <p>🩹 Cirugías</p>
+        <p>🐕 Controles médicos</p>
+        <p>📅 Próximas atenciones</p>
+
+    </div>
+
+</section>
+
+<section id="colaboradores">
+
+    <h2>🤝 Colaboradores y Donantes</h2>
+
+    <div class="contenedor">
+
+        <div class="tarjeta">
+            <h3>Ana Pérez</h3>
+            <p>Voluntaria</p>
+            <p>Paseos y alimentación</p>
+            <p>Total aportes: 10</p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>Carlos Díaz</h3>
+            <p>Donante</p>
+            <p>Alimento balanceado</p>
+            <p>Total aportes: 5</p>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <h3>Refugio Perritos Contentos</h3>
+    <p>Sistema de Gestión de Animales y Adopciones</p>
+
+</footer>
+
+</body>
+</html>
+```
